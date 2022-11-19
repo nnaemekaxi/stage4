@@ -111,7 +111,15 @@
     line-height: 28px;
     text-align: left;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width:768px) {
+    .requirements-section h2, .rules-section h2, .deactivation-section h2, .copyright-section h2, .billing-section h2{
+        font-size: 18px;
+    }
+    .requirements-section p, .rules-section ul li, .deactivation-section p, .copyright-section p, .billing-section p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px) {
     .heading{
         margin-top: 32px;
     }
