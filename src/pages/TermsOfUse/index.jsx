@@ -1,12 +1,12 @@
 import React from "react";
-import "./styles.css"
+import styles from "./styles.module.css"
 
 
 const TermsOfUse = () => {
     return(
-    <div className="terms-of-use">
-        <h1 className="heading">Terms of Use</h1>
-        <section className="requirements-section">
+    <div className={styles.TermsOfUse}>
+        <h1 className={styles.Heading}>Terms of Use</h1>
+        <section className={styles.RequirementsSection}>
             <h2>Introduction and Requirements:</h2>
             <p>
                 Welcome to DevAsk! By using our website and/or by using the services that are provided, you acknowledge that you have read, understood, and agree to be bound by our Terms and Conditions.
@@ -15,7 +15,7 @@ const TermsOfUse = () => {
                 discontinue use immediately. DevAsk recommends that you save or print a copy of these Terms and Conditions for future reference.
             </p>
         </section>
-        <section className="agreement-section">
+        <section className={styles.AgreementSection}>
             <h2>Agreement to Terms and Conditions:</h2>
             <p>
                 DevAsk Terms And Conditions (these "Terms" or these "Terms and Conditions") contained in this Agreement shall govern your use of this Website and all its content (collectively referred to herein as this "Website"). These Terms outline the rules and regulations guiding the use of DevAsk located at https://www.devask.com
@@ -24,7 +24,7 @@ const TermsOfUse = () => {
                 Do not continue to use this Website if you have any objection to any of the Terms and Conditions stated on this page
             </p>
         </section>
-        <section className="standard-section">
+        <section className={styles.StandardSection}>
             <h2>Standards of Using Application:</h2>
             <p>
                 DevAsk is a social media platform for use by techies. As such, the following should be observed when using this application:
@@ -34,7 +34,7 @@ const TermsOfUse = () => {
                 Admit when you make a mistake. This is very important as the platform exists to provide instantaneous solutions. However, those solutions need to be correct. So, if you provide an incorrect solution, do reach out and acknowledge as well as apologize.
             </p>
         </section>
-        <section className="copyright-section">
+        <section className={styles.CopyrightSection}>
             <h2>Copyright information:</h2>
             <p>
                  © DevAsk 2022 © DevAsk Press and contributors 2022. <br></br><br></br>
@@ -48,9 +48,9 @@ const TermsOfUse = () => {
                 We may change these terms of use from time to time. Check before re-using any content from this website.
             </p>
             </section>
-        <section className="billing-section">
+        <section className={styles.BillingSection}>
             <h2>Billing and Subscription:</h2>
-            <p className="billing-section-par">PREMIUM SUBSCRIBERS:
+            <p className={styles.BillingSectionPar}>PREMIUM SUBSCRIBERS:
 
                 <div>
                     <ul>Iron</ul>
